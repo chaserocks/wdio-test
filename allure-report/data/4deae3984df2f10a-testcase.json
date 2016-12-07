@@ -1,0 +1,286 @@
+{
+  "uid" : "4deae3984df2f10a",
+  "name" : "Should login and display the home page and send a mail to the user",
+  "title" : "Should login and display the home page and send a mail to the user",
+  "time" : {
+    "start" : 1480079274861,
+    "stop" : 1480079292783,
+    "duration" : 17922
+  },
+  "summary" : {
+    "attachments" : 15,
+    "steps" : 10
+  },
+  "failure" : {
+    "message" : "invalid element state: Element is not currently interactable and may not be manipulated",
+    "stackTrace" : "Error: invalid element state: Element is not currently interactable and may not be manipulated\n    at Object.wait (D:\\SonyChandra\\node_modules\\fibers\\future.js:449:15)\n    at Object.setValue (D:\\SonyChandra\\node_modules\\wdio-sync\\build\\index.js:431:27)\n    at Page.value (D:/SonyChandra/pages/LoginLogoutPage.js:39:29)\n    at Context.<anonymous> (D:/SonyChandra/test/specs/LoginLogoutTest.js:11:25)\n    at D:\\SonyChandra\\node_modules\\wdio-sync\\build\\index.js:678:26\n    at Context.executeSync (D:\\SonyChandra\\node_modules\\wdio-sync\\build\\index.js:676:12)\n    at D:\\SonyChandra\\node_modules\\wdio-sync\\build\\index.js:902:34\n    at elementIdValue(\"2\", \"rimbola54321\") - D:\\SonyChandra\\node_modules\\webdriverio\\build\\lib\\commands\\setValue.js:46:80"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "9263153463f55412",
+    "name" : "Home Page",
+    "title" : "Home Page"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/window/current/maximize",
+    "title" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/window/current/maximize",
+    "time" : {
+      "start" : 1480079274871,
+      "stop" : 1480079276100,
+      "duration" : 1229
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "a83184df-3ad8-4eed-a316-859af85d27ca-attachment.json",
+      "type" : "application/json",
+      "size" : 196,
+      "uid" : "918c9fd9ffc2f7a1"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/url",
+    "title" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/url",
+    "time" : {
+      "start" : 1480079276114,
+      "stop" : 1480079291578,
+      "duration" : 15464
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "65ded440-e0a0-4b4d-9aaf-f2d329e44e57-attachment.json",
+      "type" : "application/json",
+      "size" : 35,
+      "uid" : "dbdb7f026ca6e5ef"
+    }, {
+      "title" : "Response",
+      "source" : "cccdb7d6-e3c6-457a-8af4-313151536c49-attachment.json",
+      "type" : "application/json",
+      "size" : 196,
+      "uid" : "edd3a95fcbb30d44"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/timeouts",
+    "title" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/timeouts",
+    "time" : {
+      "start" : 1480079291579,
+      "stop" : 1480079291600,
+      "duration" : 21
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "940fcfc1-376b-4dc7-a62e-f66c8d19c43a-attachment.json",
+      "type" : "application/json",
+      "size" : 43,
+      "uid" : "4e7cfa4c9f93474a"
+    }, {
+      "title" : "Response",
+      "source" : "0ca73382-f355-4161-827f-fe9e5532e7ae-attachment.json",
+      "type" : "application/json",
+      "size" : 196,
+      "uid" : "7e9e92a8eef5698b"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/element",
+    "title" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/element",
+    "time" : {
+      "start" : 1480079291609,
+      "stop" : 1480079291669,
+      "duration" : 60
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "e7bf5dc4-36bf-4e7c-b808-7310d75514bc-attachment.json",
+      "type" : "application/json",
+      "size" : 43,
+      "uid" : "fbadfa78fb054d28"
+    }, {
+      "title" : "Response",
+      "source" : "4e6b3a7a-e046-4751-8cb6-7d5bec8c9460-attachment.json",
+      "type" : "application/json",
+      "size" : 219,
+      "uid" : "ccc282645c4f8969"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/element/0/clear",
+    "title" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/element/0/clear",
+    "time" : {
+      "start" : 1480079291688,
+      "stop" : 1480079291745,
+      "duration" : 57
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "c056fc77-3490-4d12-a808-1b0a582372c2-attachment.json",
+      "type" : "application/json",
+      "size" : 196,
+      "uid" : "5c00976194482297"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/element/0/value",
+    "title" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/element/0/value",
+    "time" : {
+      "start" : 1480079291749,
+      "stop" : 1480079291901,
+      "duration" : 152
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "619fc19e-a566-42f8-bb84-4b0f382ed8e9-attachment.json",
+      "type" : "application/json",
+      "size" : 179,
+      "uid" : "29bbacc0c6d0c1fc"
+    }, {
+      "title" : "Response",
+      "source" : "8d2ea959-0970-4430-8b1d-2d7765cd1dd4-attachment.json",
+      "type" : "application/json",
+      "size" : 196,
+      "uid" : "3d065c28d74f2846"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/element",
+    "title" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/element",
+    "time" : {
+      "start" : 1480079291915,
+      "stop" : 1480079291965,
+      "duration" : 50
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "4d753b48-ab1f-45a6-b0da-a42982718136-attachment.json",
+      "type" : "application/json",
+      "size" : 42,
+      "uid" : "4564745e863889f1"
+    }, {
+      "title" : "Response",
+      "source" : "3cbc4eed-f3ee-4b58-bdbb-970e0f438908-attachment.json",
+      "type" : "application/json",
+      "size" : 222,
+      "uid" : "bde23c060f08ea4b"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/element/1/click",
+    "title" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/element/1/click",
+    "time" : {
+      "start" : 1480079291985,
+      "stop" : 1480079292158,
+      "duration" : 173
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "a3981d3d-2494-4d9a-b57d-0dd0c2740eb1-attachment.json",
+      "type" : "application/json",
+      "size" : 196,
+      "uid" : "22af5555b1a58607"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/element",
+    "title" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/element",
+    "time" : {
+      "start" : 1480079292171,
+      "stop" : 1480079292289,
+      "duration" : 118
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "4f0f9f23-17f1-4f41-82cd-de5aef088eec-attachment.json",
+      "type" : "application/json",
+      "size" : 44,
+      "uid" : "47259198b9b6fb6"
+    }, {
+      "title" : "Response",
+      "source" : "9677fdab-0d06-413b-9c65-19d5037507d3-attachment.json",
+      "type" : "application/json",
+      "size" : 221,
+      "uid" : "7efdff16cdb118fe"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/element/2/clear",
+    "title" : "POST /wd/hub/session/20bb13f3-9e4c-4a9e-8060-0a7dcb1958eb/element/2/clear",
+    "time" : {
+      "start" : 1480079292305,
+      "stop" : 1480079292783,
+      "duration" : 478
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "BROKEN",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Home Page"
+  }, {
+    "name" : "suite-title",
+    "value" : "Home Page"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":5,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"D:\\\\SonyChandra\\\\test\\\\specs\\\\LoginLogoutTest.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

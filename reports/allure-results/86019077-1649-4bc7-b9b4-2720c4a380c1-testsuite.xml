@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1480325167178" stop="1480325187707">
+	<name>Home Page</name>
+	<title>Home Page</title>
+	<test-cases>
+		<test-case start="1480325167182" stop="1480325187700" status="broken">
+			<name>Should login and display the home page and send a mail to the user</name>
+			<title>Should login and display the home page and send a mail to the user</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:5,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;D:\\SonyChandra\\test\\specs\\LoginLogoutTest.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1480325167198" stop="1480325168512" status="passed">
+					<name>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/window/current/maximize</name>
+					<title>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/window/current/maximize</title>
+					<attachments>
+						<attachment title="Response" source="17f22cdd-1b51-498a-ae94-af607a6ebf69-attachment.json" type="application/json" size="195"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1480325168527" stop="1480325185894" status="passed">
+					<name>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/url</name>
+					<title>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/url</title>
+					<attachments>
+						<attachment title="Request" source="49887b19-8f66-4864-8405-d4b176bce470-attachment.json" type="application/json" size="35"/>
+						<attachment title="Response" source="710f4fe6-aaa4-4a04-837e-3828bdad9696-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1480325185895" stop="1480325185925" status="passed">
+					<name>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/timeouts</name>
+					<title>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/timeouts</title>
+					<attachments>
+						<attachment title="Request" source="a60d8767-a6bd-4c5e-81e9-832476eb0fcb-attachment.json" type="application/json" size="43"/>
+						<attachment title="Response" source="6375e186-48a6-4662-ad68-29ec0c8f5ed6-attachment.json" type="application/json" size="195"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1480325185942" stop="1480325186110" status="passed">
+					<name>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/element</name>
+					<title>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/element</title>
+					<attachments>
+						<attachment title="Request" source="713e06c4-87eb-4bac-9ba5-3d8ad73fbca2-attachment.json" type="application/json" size="43"/>
+						<attachment title="Response" source="21a55ecb-5df9-484d-99ff-2e5aa43d101e-attachment.json" type="application/json" size="221"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1480325186129" stop="1480325186206" status="passed">
+					<name>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/element/0/clear</name>
+					<title>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/element/0/clear</title>
+					<attachments>
+						<attachment title="Response" source="52c4aee4-6206-4270-8222-cef5445ce45e-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1480325186211" stop="1480325186369" status="passed">
+					<name>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/element/0/value</name>
+					<title>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/element/0/value</title>
+					<attachments>
+						<attachment title="Request" source="f76e9f23-c2b8-44ea-a5c1-0f66aa757492-attachment.json" type="application/json" size="179"/>
+						<attachment title="Response" source="eaed3578-04f1-4e94-baca-db67c4c7f799-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1480325186387" stop="1480325186436" status="passed">
+					<name>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/element</name>
+					<title>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/element</title>
+					<attachments>
+						<attachment title="Request" source="5213ff7d-9eb3-4a3f-bc13-08ad35131089-attachment.json" type="application/json" size="42"/>
+						<attachment title="Response" source="fd74d413-c9b6-4c41-bb5e-f2cbbb6b30eb-attachment.json" type="application/json" size="222"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1480325186454" stop="1480325186645" status="passed">
+					<name>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/element/1/click</name>
+					<title>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/element/1/click</title>
+					<attachments>
+						<attachment title="Response" source="6846310e-0a89-4e83-81cc-a8a59315e90a-attachment.json" type="application/json" size="195"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1480325186659" stop="1480325186787" status="passed">
+					<name>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/element</name>
+					<title>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/element</title>
+					<attachments>
+						<attachment title="Request" source="37014c9d-48b9-4f13-8de1-ee1a47f42ea3-attachment.json" type="application/json" size="44"/>
+						<attachment title="Response" source="33cb7cc8-e960-4acc-90d3-1c6750ef3155-attachment.json" type="application/json" size="221"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1480325186815" stop="1480325187700" status="broken">
+					<name>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/element/2/clear</name>
+					<title>POST /wd/hub/session/cb0ce4f7-8817-497d-996d-e80d71e28f5e/element/2/clear</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>invalid element state: Element is not currently interactable and may not be manipulated</message>
+				<stack-trace>Error: invalid element state: Element is not currently interactable and may not be manipulated
+    at Object.wait (D:\SonyChandra\node_modules\fibers\future.js:449:15)
+    at Object.setValue (D:\SonyChandra\node_modules\wdio-sync\build\index.js:431:27)
+    at Page.value (D:/SonyChandra/pages/LoginLogoutPage.js:39:29)
+    at Context.&lt;anonymous&gt; (D:/SonyChandra/test/specs/LoginLogoutTest.js:11:25)
+    at D:\SonyChandra\node_modules\wdio-sync\build\index.js:678:26
+    at Context.executeSync (D:\SonyChandra\node_modules\wdio-sync\build\index.js:676:12)
+    at D:\SonyChandra\node_modules\wdio-sync\build\index.js:902:34
+    at elementIdValue(&quot;2&quot;, &quot;rimbola54321&quot;) - D:\SonyChandra\node_modules\webdriverio\build\lib\commands\setValue.js:46:80</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

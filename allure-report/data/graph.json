@@ -1,0 +1,14 @@
+{
+  "testCases" : [ {
+    "uid" : "9939b2542b2ac741",
+    "name" : "Should login to the application",
+    "title" : "Should login to the application",
+    "time" : {
+      "start" : 1480074860934,
+      "stop" : 1480074919323,
+      "duration" : 58389
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

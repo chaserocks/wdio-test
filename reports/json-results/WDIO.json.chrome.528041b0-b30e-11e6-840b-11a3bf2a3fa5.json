@@ -1,0 +1,1 @@
+{"start":"2016-11-25T12:54:28.000Z","end":"2016-11-25T12:54:37.619Z","capabilities":{"maxInstances":5,"browserName":"chrome"},"host":"127.0.0.1","port":4444,"baseUrl":"https://gmail.com","framework":"mocha","mochaOpts":{"timeout":99999999,"ui":"bdd","compilers":["js:babel-register"],"require":["./test/helpers/common.js"]},"suites":[]}

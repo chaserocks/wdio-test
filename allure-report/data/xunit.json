@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1480074860934,
+    "stop" : 1480074919323,
+    "duration" : 58389
+  },
+  "testSuites" : [ {
+    "uid" : "b7178388d6f5c1d1",
+    "name" : "Login Logout Page",
+    "title" : "Login Logout Page",
+    "time" : {
+      "start" : 1480074860934,
+      "stop" : 1480074919323,
+      "duration" : 58389
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "9939b2542b2ac741",
+      "name" : "Should login to the application",
+      "title" : "Should login to the application",
+      "time" : {
+        "start" : 1480074860934,
+        "stop" : 1480074919323,
+        "duration" : 58389
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

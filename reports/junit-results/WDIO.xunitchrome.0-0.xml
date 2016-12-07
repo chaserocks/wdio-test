@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="home_page" timestamp="2016-11-30T12:40:18" time="43.325" tests="1" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="9aa8d66d5d9fdb0c56f6e7290b1ca379"/>
+      <property name="suiteName" value="Home Page"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.Home Page" name="Should login and display the home page and send a mail to the user" time="43.316">
+      <error message="&#xA;An element could not be located on the page using the given search parameters.&#xA;"/>
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/3c46a5be-a635-48ca-9237-6d8ee7636c8a/window/current/maximize - {}
+RESULT: {"state":"success","sessionId":"3c46a5be-a635-48ca-9237-6d8ee7636c8a","hCode":1198574143,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/3c46a5be-a635-48ca-9237-6d8ee7636c8a/url - {"url":"https://gmail.com/"}
+RESULT: {"state":"success","sessionId":"3c46a5be-a635-48ca-9237-6d8ee7636c8a","hCode":155040466,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/3c46a5be-a635-48ca-9237-6d8ee7636c8a/timeouts - {"type":"implicit","ms":10000}
+RESULT: {"state":"success","sessionId":"3c46a5be-a635-48ca-9237-6d8ee7636c8a","hCode":41771058,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/3c46a5be-a635-48ca-9237-6d8ee7636c8a/element - {"using":"id","value":"Email"}
+RESULT: {"state":"success","sessionId":"3c46a5be-a635-48ca-9237-6d8ee7636c8a","hCode":2062815773,"value":{"ELEMENT":"0"},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/3c46a5be-a635-48ca-9237-6d8ee7636c8a/element/0/clear - {}
+RESULT: {"state":"success","sessionId":"3c46a5be-a635-48ca-9237-6d8ee7636c8a","hCode":999562830,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/3c46a5be-a635-48ca-9237-6d8ee7636c8a/element/0/value - {"value":["r","i","m","b","o","l","a","1","2","3","(2 more items)"]}
+RESULT: {"state":"success","sessionId":"3c46a5be-a635-48ca-9237-6d8ee7636c8a","hCode":906907637,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/3c46a5be-a635-48ca-9237-6d8ee7636c8a/element - {"using":"id","value":"next"}
+RESULT: {"state":"success","sessionId":"3c46a5be-a635-48ca-9237-6d8ee7636c8a","hCode":1815136211,"value":{"ELEMENT":"1"},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/3c46a5be-a635-48ca-9237-6d8ee7636c8a/element/1/click - {}
+RESULT: {"state":"success","sessionId":"3c46a5be-a635-48ca-9237-6d8ee7636c8a","hCode":2001588853,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/3c46a5be-a635-48ca-9237-6d8ee7636c8a/element - {"using":"id","value":"Passwd"}
+RESULT: {"state":"success","sessionId":"3c46a5be-a635-48ca-9237-6d8ee7636c8a","hCode":1980889520,"value":{"ELEMENT":"2"},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/3c46a5be-a635-48ca-9237-6d8ee7636c8a/element/2/clear - {}
+RESULT: {"state":"success","sessionId":"3c46a5be-a635-48ca-9237-6d8ee7636c8a","hCode":849633632,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/3c46a5be-a635-48ca-9237-6d8ee7636c8a/element/2/value - {"value":["r","i","m","b","o","l","a","5","4","3","(2 more items)"]}
+RESULT: {"state":"success","sessionId":"3c46a5be-a635-48ca-9237-6d8ee7636c8a","hCode":1488987832,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/3c46a5be-a635-48ca-9237-6d8ee7636c8a/element - {"using":"id","value":"signIn"}
+RESULT: {"state":"success","sessionId":"3c46a5be-a635-48ca-9237-6d8ee7636c8a","hCode":1099405743,"value":{"ELEMENT":"3"},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/3c46a5be-a635-48ca-9237-6d8ee7636c8a/element/3/click - {}
+RESULT: {"state":"success","sessionId":"3c46a5be-a635-48ca-9237-6d8ee7636c8a","hCode":950154326,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/3c46a5be-a635-48ca-9237-6d8ee7636c8a/element - {"using":"xpath","value":"//div[text()=\"COMPOSE\"]"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/3c46a5be-a635-48ca-9237-6d8ee7636c8a/screenshot - {}
+RESULT: {"state":"success","sessionId":"3c46a5be-a635-48ca-9237-6d8ee7636c8a","hCode":61459990,"value":"[base64] 14012 bytes","class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/3c46a5be-a635-48ca-9237-6d8ee7636c8a - {}
+RESULT: {"state":"success","sessionId":"3c46a5be-a635-48ca-9237-6d8ee7636c8a","hCode":1072890154,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+]]>
+      </system-out>
+      <system-err>
+        <![CDATA[
+Error: An element could not be located on the page using the given search parameters.
+    at Object.click (D:\SonyChandra\node_modules\wdio-sync\build\index.js:431:27)
+    at Context.<anonymous> (D:/SonyChandra/test/specs/LoginLogoutTest.js:15:32)
+    at D:\SonyChandra\node_modules\wdio-sync\build\index.js:678:26
+    at Context.executeSync (D:\SonyChandra\node_modules\wdio-sync\build\index.js:676:12)
+    at D:\SonyChandra\node_modules\wdio-sync\build\index.js:902:34
+    at element() - D:\SonyChandra\node_modules\webdriverio\build\lib\commands\click.js:12:17
+    at click() -     at D:\SonyChandra\node_modules\wdio-sync\build\at Object.wait (D:\SonyChandra\node_modules\fibers\future.js:449:15)
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
